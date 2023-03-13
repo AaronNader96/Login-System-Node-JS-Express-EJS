@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Add font from Google & Backgroun Img */
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-image: url('/assets/background_.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Add padding to header */
+
+.center-div{
+    padding-top: 10%;
+}
+
+.btn.btn-success{
+    padding:.4em 2em;
+}
+
+/* Add pading to input element */
+
+form{
+    padding: 0 3em;
+}
+
+/* Add padding to span tag for form */
+
+#login .title > span{
+    font-size: .8em;
+}
+
+/* Copyright Footer Style */
+
+footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 2em;
+    text-align: center;
+    color:rgb(77, 21, 21);
+    bottom:0;
+}
